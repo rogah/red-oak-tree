@@ -6,6 +6,18 @@ import Footer from './components/Footer'
 export const metadata: Metadata = {
   title: 'Red Oak Tree PTY — Digital Products Studio',
   description: 'Red Oak Tree PTY is an Australian digital products studio building thoughtful software for self-discovery, communication, and human insight.',
+  icons: {
+    icon: [
+      {
+        url: '/icons/redoaktree-icon-black.svg',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/icons/redoaktree-icon-white.svg',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
