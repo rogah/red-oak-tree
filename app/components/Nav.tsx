@@ -15,8 +15,11 @@ export default function Nav() {
     <header style={{ borderBottom: '1px solid rgba(44,26,14,0.08)' }} className="sticky top-0 z-50 backdrop-blur-sm" >
       <div style={{ background: 'rgba(253,250,245,0.92)' }}>
         <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
-          <Link href="/" className="font-display text-xl tracking-wide" style={{ color: 'var(--oak)', fontWeight: 500 }}>
-            Red Oak Tree
+          <Link href="/" className="flex items-center gap-2">
+            <img src="/icons/redoaktree-icon-oak.svg" width={28} height={28} alt="Red Oak Tree" />
+            <span className="font-display text-xl tracking-wide" style={{ color: 'var(--oak)', fontWeight: 500 }}>
+              Red Oak Tree
+            </span>
           </Link>
 
           {/* Desktop */}

@@ -5,7 +5,10 @@ export default function Footer() {
     <footer style={{ borderTop: '1px solid rgba(44,26,14,0.08)', background: 'var(--parchment)' }} className="mt-24">
       <div className="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
-          <p className="font-display text-lg" style={{ color: 'var(--oak)', fontWeight: 500 }}>Red Oak Tree PTY</p>
+          <div className="flex items-center gap-2">
+            <img src="/icons/redoaktree-icon-oak.svg" width={24} height={24} alt="Red Oak Tree" />
+            <p className="font-display text-lg" style={{ color: 'var(--oak)', fontWeight: 500 }}>Red Oak Tree PTY</p>
+          </div>
           <p className="text-sm mt-1 opacity-50" style={{ color: 'var(--bark)' }}>ABN · Australia</p>
         </div>
         <nav className="flex flex-wrap gap-6">
